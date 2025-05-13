@@ -73,7 +73,7 @@ while True:
     frame = frame_read.frame
 
     if frame is not None:   #in other words, if there IS a frame...
-        # Run YOLOv8 Object Detection on the frame
+        # Run YOLOv11 Object Detection on the frame
         # 'results' saves information about the detected objects
 
         #confidence of 0.75 worked well for my room, but 0.25 was generally better outside of it,
